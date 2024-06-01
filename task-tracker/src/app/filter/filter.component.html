@@ -1,0 +1,14 @@
+<div class="filter-buttons">
+  <button
+    mat-button
+    *ngFor="let status of statuses"
+    [ngClass]="{
+      toDo: status === 'To do',
+      inProgress: status === 'In progress',
+      done: status === 'Done'
+    }"
+    (click)="selectStatus(status)"
+  >
+    {{ status }}
+  </button>
+</div>

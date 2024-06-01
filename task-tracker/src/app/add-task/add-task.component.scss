@@ -1,0 +1,107 @@
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+.form-control {
+  width: 15%;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-radius: 5px;
+  border: 1px solid lightseagreen;
+}
+
+label {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
+  margin-bottom: 10px;
+}
+
+.buttons {
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.submitButton {
+  color: lightseagreen;
+  cursor: pointer;
+}
+
+.cancelButton {
+  color: red;
+  cursor: pointer;
+}
+
+/*
+.my-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.my-form .form-group {
+  margin-bottom: 20px;
+}
+
+.my-form .form-group label {
+  display: block;
+  font-weight: bold;
+}
+
+.my-form .form-control {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.my-form .button-group {
+  text-align: right;
+}
+
+.my-form .button-group button {
+  margin-left: 10px;
+}
+
+.button-group button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.my-form .button-group {
+  text-align: right;
+  margin-top: 20px;
+}
+
+.my-form .button-group button {
+  margin-left: 10px;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.my-form .button-group button.btn-primary {
+  background-color: #28a745;
+}
+
+.my-form .button-group button.btn-secondary {
+  background-color: #dc3545;
+}
+*/
